@@ -1,0 +1,102 @@
+body {
+   /* font-size: 15pt;
+    background: linear-gradient(30deg, darkblue, black, darkblue, #030629, darkblue, black);
+    */
+    background: url("https://media.discordapp.net/attachments/983502610294251543/988521383376080926/881563d6444b370fa4ceea0c3183bb4c.gif");
+    font-family: 'Ubuntu', sans-serif;
+   background-size: 200% 220%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 10%;
+	}
+	10% {
+		background-position: 10% 20%;
+	}
+	20% {
+background-position: 20% 60%;
+	}
+	30%{
+	 background-position: 30% 40%;
+	}
+	40% {
+	 background-position: 40% 50%;
+	}
+	50%{
+	 background-position: 50% 100%;
+	}
+	60%{
+	 background-position: 60% 50%;
+	}
+	70%{
+	 background-position: 50% 10%;
+	}
+	80%{
+	 background-position: 40% 30%;
+	}
+	90%{
+	 background-position: 30% 20%;
+	}
+	100% {
+		background-position: 20% 5%;
+	}
+}
+
+h1{
+ color: blue;
+ text-align: center;
+ position: sticky;
+ top: 1%;
+ background: black;
+ border: 2px solid skyblue;
+ border-radius: 12px;
+ 
+}
+a{
+ background: black;
+ color: blue;
+ border: 2px solid blue;
+ padding: 15px 25px 15px 25px;
+ border-radius: 8px;
+ text-decoration: none;
+ font-weight: bold;
+ 
+}
+span{
+ color: red;
+}
+h3{
+ 
+ color: blue;
+ border: 2px solid blue;
+ border-radius: 5px;
+ background: black;
+ padding: 10px;
+ 
+}
+input[type=text] {
+ color: white;
+ font-weight: bold;
+ border: 3px solid darkblue;
+ border-radius: 9px;
+ padding: 10px 50px;
+ background: black;
+ outline: none;
+ transition: padding 0.5s, color 0.5s;
+}
+input[type=text]:focus{
+ border: 3px solid #1358ed;
+}
+
+input:hover{
+ padding: 13px 55px;
+ color: #1358ed;
+}
+.report{
+ color: darkblue;
+ background: black;
+ padding: 5px;
+ border-radius: 13px;
+}
